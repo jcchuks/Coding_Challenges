@@ -1,7 +1,7 @@
 /*
 Breadth first Search in C/C++ compatible code. No extra libs included.
 Solution to https://www.hackerrank.com/challenges/tree-level-order-traversal on Hackerrank.
-
+ 
 struct node
 {
     int data;
