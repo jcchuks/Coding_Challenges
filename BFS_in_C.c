@@ -36,7 +36,7 @@ void enq(struct Que* que, struct node* item){
         struct QueNode* temp = que->tl; 
         newQnode->next = NULL;
         newQnode->nd = item;
-        temp->next = newQnode;
+        temp->next = newQnode; 
         que->tl = newQnode;
     } 
 }
